@@ -21,6 +21,14 @@ public class Ordenador {
     public Ordenador(String marca, String procesador, String apagado){
         System.out.println("\nESTADO DEL ORDENADOR:" +"\nMarca  "+ marca +"\nProcesador  "+procesador+"\n"+apagado);
     }   
+
+    public String getPantalla() {
+        return pantalla;
+    }
+
+    public boolean isOrdenadorEncendido() {
+        return ordenadorEncendido;
+    }
       
       
     //metodos
