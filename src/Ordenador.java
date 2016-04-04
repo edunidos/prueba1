@@ -22,6 +22,7 @@ public class Ordenador {
         System.out.println("\nESTADO DEL ORDENADOR:" +"\nMarca  "+ marca +"\nProcesador  "+procesador+"\n"+apagado);
     }   
 
+
     public String getPantalla() {
         return pantalla;
     }
@@ -30,6 +31,14 @@ public class Ordenador {
         return ordenadorEncendido;
     }
       
+
+//    static public void mostrarGarantia(){
+//         
+//       System.out.println("Todos los ordenadores tiene de  garantía: "+ garantia);
+//
+//}     
+
+    
       
     //metodos
     void encenderOrdenador(){
@@ -58,6 +67,7 @@ public class Ordenador {
     void asignarPantalla(String pantalla){
         System.out.println(pantalla);
         
+
     }
 //    static public void mostrarGarantia(){
 //         
@@ -67,3 +77,5 @@ public class Ordenador {
 
     
 }
+
+    
